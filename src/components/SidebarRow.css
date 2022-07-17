@@ -1,0 +1,46 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    
+    padding:5px 25px;
+}
+
+.sidebarRow>Icon{
+    color: gray;
+}
+.sidebarRow>h3{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+div.sidebarRow:hover, div.sidebarRow:active{
+    background-color: lightgray;
+    cursor: pointer;
+    
+}
+.sidebarRowIcon{
+    color: rgb(77, 76, 76);
+    
+}
+.sidebarRow:hover> .sidebarRowIcon{
+    color: black;
+    
+}
+
+.sidebarRow:hover>.sidebarRowTitle{
+    font-weight: bold;
+}
+
+.sidebarRow.selected {
+    background-color: lightgray;
+}
+
+.sidebarRow.selected>.sidebarRowIcon {
+    color: black;
+}
+
+.sidebarRow.selected>.sidebarRowTitle {
+   font-weight: bold;
+}

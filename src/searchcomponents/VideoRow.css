@@ -1,0 +1,23 @@
+.videoRow{
+    display: flex;
+    margin: 25px 0;
+}
+.videoRow.img{
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}
+.channel__details{
+    margin: 5px 15px;
+}
+.channel__details>h3{
+    font-size: 16px;
+}
+.channel__name{
+    display: flex;
+    align-items: center;
+}
+.channel__name>h4{
+    font-weight: 400;
+    font-size: 13px;
+}
